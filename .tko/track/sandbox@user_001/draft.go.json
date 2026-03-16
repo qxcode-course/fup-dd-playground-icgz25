@@ -1,0 +1,34 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-10_17-32-05",
+            "content": "@@ -37,31 +37,8 @@\n ) %7B%0A\n-    var num1, num2 int%0A\n     \n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-10_17-40-26",
+            "content": "@@ -56,35 +56,11 @@\n um2 \n-float64%0A    fmt.Scan(&num1)\n+int\n %0A   \n@@ -87,20 +87,8 @@\n ndo%22\n-, num1, num2\n )%0A%7D%0A\n",
+            "lines": "6"
+        },
+        {
+            "label": "2026-03-10_17-43-11",
+            "content": "@@ -84,28 +84,8 @@\n m1)%0A\n-    fmt.Scan(&num2)%0A\n     \n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-10_17-44-27",
+            "content": "@@ -78,18 +78,31 @@\n an(&num1\n-, \n+)%0A    fmt.Scan(\n &num2)%0A \n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-10_17-56-09",
+            "content": "@@ -107,43 +107,26 @@\n tln(\n-num1 + num2)%0A    fmt.Println(\n+%22ola mundo%22, \n num1\n- -\n+,\n  num\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-10_17-57-37",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var num1, num2 float64\n    fmt.Scan(&num1, &num2)\n    fmt.Println(num1 + num2)\n    fmt.Println(num1 - num2)\n}\n",
+            "lines": "8"
+        }
+    ]
+}
