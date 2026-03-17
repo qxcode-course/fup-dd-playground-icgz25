@@ -14,9 +14,9 @@ sources:
   quests: null
   tasks: null
 expanded:
+- sandbox@student_sandbox_alias:00_rascunhos
 - sandbox@student_sandbox_alias
 - fup@missão-operações
-- sandbox@student_sandbox_alias:00_rascunhos
 - fup@campanha-principal
 tasks:
   sandbox@user_001: '{rate:100}'

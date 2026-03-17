@@ -22,7 +22,12 @@
         },
         {
             "label": "2026-03-17_16-56-46",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a int = 3\n    var b int = 6\n\n    fmt.Scan(&a, &b)\n    \n    fmt.Println(a + b/2)\n}\n",
+            "content": "@@ -67,17 +67,17 @@\n b int = \n-3\n+6\n %0A%0A    fm\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-03-17_17-03-05",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a int = 3\n    var b int = 3\n\n    fmt.Scan(&a, &b)\n    \n    fmt.Println(a + b/2)\n}\n",
             "lines": "10"
         }
     ]
