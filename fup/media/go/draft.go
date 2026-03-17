@@ -2,7 +2,7 @@ package main
 import "fmt"
 func main() {
     var a int = 3
-    var b int = 3
+    var b int = 6
 
     fmt.Scan(&a, &b)
     

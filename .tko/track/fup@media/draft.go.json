@@ -17,7 +17,12 @@
         },
         {
             "label": "2026-03-16_17-57-34",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a int = 3\n    var b int = 3\n\n    fmt.Scan(&a, &b)\n    \n    fmt.Println(a + b/2)\n}\n",
+            "content": "@@ -71,9 +71,9 @@\n t = \n-6\n+3\n %0A%0A  \n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-03-17_16-56-46",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a int = 3\n    var b int = 6\n\n    fmt.Scan(&a, &b)\n    \n    fmt.Println(a + b/2)\n}\n",
             "lines": "10"
         }
     ]

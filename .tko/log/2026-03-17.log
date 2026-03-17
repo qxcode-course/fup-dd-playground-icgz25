@@ -2,3 +2,11 @@
 2026-03-17 16:40:03, EXEC, v:1, k:fup@media, mode:FULL, rate:0
 2026-03-17 16:42:06, EXEC, v:1, k:fup@media, mode:FULL, rate:0
 2026-03-17 16:43:18, MOVE, v:1, k:fup@media, mode:BACK
+2026-03-17 16:48:26, MOVE, v:1, k:fup@resto, mode:PICK
+2026-03-17 16:48:34, EXEC, v:1, k:fup@resto, mode:FULL, rate:0
+2026-03-17 16:53:58, MOVE, v:1, k:fup@resto, mode:BACK
+2026-03-17 16:55:01, MOVE, v:1, k:fup@resto, mode:PICK
+2026-03-17 16:55:03, EXEC, v:1, k:fup@resto, mode:FULL, rate:0
+2026-03-17 16:55:19, MOVE, v:1, k:fup@resto, mode:BACK
+2026-03-17 16:55:32, MOVE, v:1, k:fup@media, mode:PICK
+2026-03-17 16:56:46, EXEC, v:1, k:fup@media, mode:FULL, rate:0, size:10
