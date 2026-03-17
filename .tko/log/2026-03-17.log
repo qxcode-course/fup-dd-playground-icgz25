@@ -1,0 +1,4 @@
+2026-03-17 16:39:58, MOVE, v:1, k:fup@media, mode:PICK
+2026-03-17 16:40:03, EXEC, v:1, k:fup@media, mode:FULL, rate:0
+2026-03-17 16:42:06, EXEC, v:1, k:fup@media, mode:FULL, rate:0
+2026-03-17 16:43:18, MOVE, v:1, k:fup@media, mode:BACK
