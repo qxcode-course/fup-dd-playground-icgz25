@@ -10,20 +10,20 @@ sources:
   target: https://github.com/qxcodefup/arcade.git
   type: git
   writeable: false
-  cache_timestamp: '2026-03-23 02:35:50'
   quests: null
   tasks: null
 expanded:
+- sandbox@student_sandbox_alias
+- sandbox@student_sandbox_alias:00_rascunhos
 - fup@missão-operações
 - fup@campanha-principal
-- sandbox@student_sandbox_alias:00_rascunhos
-- sandbox@student_sandbox_alias
 tasks:
   sandbox@user_001: '{rate:100}'
   fup@tres: '{rate:100}'
   fup@resto: '{rate:100}'
   fup@media: '{rate:100}'
   fup@sobrou: '{rate:100}'
+  fup@segundos: '{rate:100}'
 flags:
   painel: 0
   quests: 0
@@ -32,4 +32,4 @@ flags:
   task_graph_mode: 0
   show_time: 0
 lang: go
-selected: fup@segundos
+selected: fup@celsius
