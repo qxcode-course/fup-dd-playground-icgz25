@@ -2,8 +2,23 @@
     "patches": [
         {
             "label": "2026-03-10_18-18-15",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"qxcode\")\n}\n",
+            "content": "@@ -37,57 +37,8 @@\n ) %7B%0A\n-    a := 51%0A    b := 31%0A%0A    resto := a %25 b%0A    %0A\n     \n@@ -53,16 +53,16 @@\n tln(\n-resto, b\n+%22qxcode%22\n )%0A%7D%0A\n",
             "lines": "5"
+        },
+        {
+            "label": "2026-03-23_02-41-07",
+            "content": "@@ -42,17 +42,17 @@\n    a := \n-2\n+5\n 1%0A    b \n@@ -58,10 +58,10 @@\n  := \n-20\n+31\n %0A%0A  \n@@ -77,16 +77,20 @@\n = a %25 b%0A\n+    \n %0A    fmt\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-03-23_02-41-26",
+            "content": "@@ -41,87 +41,45 @@\n     \n-var a, b int%0A    %0A    fmt.Scan(&a, &b)%0A%0A    resto := a %25 b%0A    quociente := a /\n+a := 21%0A    b := 20%0A%0A    resto := a %25\n  b%0A%0A\n@@ -98,24 +98,16 @@\n tln(\n-quociente, \n resto\n+, b\n )%0A%7D%0A\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-03-23_02-44-47",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a, b int\n    \n    fmt.Scan(&a, &b)\n\n    resto := a % b\n    quociente := a / b\n\n    fmt.Println(quociente, resto)\n}\n",
+            "lines": "12"
         }
     ]
 }
