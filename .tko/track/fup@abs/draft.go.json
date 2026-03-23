@@ -1,0 +1,49 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-23_17-18-08",
+            "content": "@@ -41,106 +41,35 @@\n     \n-var 5, 7 int%0A%0A    fmt.Scan(&5, &7)%0A%0A    diferenca := float64 (&5 - &7)%0A%0A    fmt.Println(diferenca)%0A\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-23_17-25-44",
+            "content": "@@ -45,27 +45,16 @@\n var \n-a = 5%0A    var b = 7\n+5, 7 int\n %0A%0A  \n@@ -69,13 +69,13 @@\n an(&\n-a, &b\n+5, &7\n )%0A%0A \n@@ -103,13 +103,15 @@\n 64 (\n-a - b\n+&5 - &7\n )%0A%0A \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-03-23_17-26-47",
+            "content": "@@ -150,26 +150,6 @@\n a)%0A%0A\n-    abs(diferenca)%0A%0A\n %7D%0A\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-23_17-27-26",
+            "content": "@@ -146,11 +146,30 @@\n renca)%0A%0A\n+    abs(diferenca)%0A\n %0A%7D%0A\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-23_17-27-37",
+            "content": "@@ -131,16 +131,18 @@\n mt.Print\n+ln\n (diferen\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-03-23_17-28-50",
+            "content": "@@ -43,19 +43,19 @@\n   var a \n-int\n+= 5\n %0A    var\n@@ -57,19 +57,19 @@\n   var b \n-int\n+= 7\n %0A%0A    fm\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-03-23_17-31-36",
+            "content": "@@ -23,23 +23,8 @@\n mt%22%0A\n-import %22math%22%0A%0A\n func\n@@ -43,23 +43,19 @@\n   var a \n-float64\n+int\n %0A    var\n@@ -61,15 +61,11 @@\n r b \n-float64\n+int\n %0A%0A  \n@@ -105,16 +105,16 @@\n  := \n-math.Abs\n+float64 \n (a -\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-03-23_17-37-37",
+            "content": "@@ -158,10 +158,8 @@\n rint\n-ln\n (dif\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-03-23_17-37-54",
+            "content": "package main\nimport \"fmt\"\nimport \"math\"\n\nfunc main() {\n    var a float64\n    var b float64\n\n    fmt.Scan(&a, &b)\n\n    diferenca := math.Abs(a - b)\n\n    fmt.Println(diferenca)\n\n\n}\n",
+            "lines": "16"
+        }
+    ]
+}

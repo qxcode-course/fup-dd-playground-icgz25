@@ -13,9 +13,10 @@ sources:
   quests: null
   tasks: null
 expanded:
-- sandbox@student_sandbox_alias
-- sandbox@student_sandbox_alias:00_rascunhos
+- fup@missão-seleção-1
 - fup@missão-operações
+- sandbox@student_sandbox_alias:00_rascunhos
+- sandbox@student_sandbox_alias
 - fup@campanha-principal
 tasks:
   sandbox@user_001: '{rate:100}'
@@ -26,6 +27,7 @@ tasks:
   fup@segundos: '{rate:100}'
   fup@celsius: '{rate:100}'
   fup@pintando: '{rate:100}'
+  fup@bala: '{rate:100}'
 flags:
   painel: 0
   quests: 0
@@ -34,4 +36,4 @@ flags:
   task_graph_mode: 0
   show_time: 0
 lang: go
-selected: fup@bala
+selected: fup@abs
