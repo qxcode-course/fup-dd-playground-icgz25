@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-23_03-09-16",
+            "content": "@@ -41,190 +41,28 @@\n     \n-var total int%0A%0A    fmt.Scan(&total)%0A%0A    horas := total / 3600%0A    resto := total %25 3600%0A%0A    minutos := resto / 60%0A    segundos := resto %25 60%0A%0A    fmt.Println(horas:minutos:segundos\n+fmt.Println(%22qxcode%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-23_03-13-40",
+            "content": "@@ -206,18 +206,16 @@\n oras\n-, \n :minutos\n , :s\n@@ -214,10 +214,8 @@\n utos\n-, \n :seg\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-23_03-14-12",
+            "content": "@@ -204,16 +204,17 @@\n (horas, \n+:\n minutos,\n@@ -214,16 +214,17 @@\n inutos, \n+:\n segundos\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-23_03-14-21",
+            "content": "@@ -198,24 +198,11 @@\n rint\n-f(%22%25d:%25d:%25d%5Cn%22, \n+ln(\n hora\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-23_03-16-29",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var total int\n\n    fmt.Scan(&total)\n\n    horas := total / 3600\n    resto := total % 3600\n\n    minutos := resto / 60\n    segundos := resto % 60\n\n    fmt.Printf(\"%d:%d:%d\\n\", horas, minutos, segundos)\n}\n",
+            "lines": "15"
+        }
+    ]
+}
