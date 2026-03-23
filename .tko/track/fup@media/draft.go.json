@@ -27,8 +27,23 @@
         },
         {
             "label": "2026-03-17_17-03-05",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a int = 3\n    var b int = 3\n\n    fmt.Scan(&a, &b)\n    \n    fmt.Println(a + b/2)\n}\n",
+            "content": "@@ -49,17 +49,17 @@\n a int = \n-2\n+3\n %0A    var\n@@ -71,9 +71,9 @@\n t = \n-4\n+3\n %0A%0A  \n",
             "lines": "10"
+        },
+        {
+            "label": "2026-03-23_02-46-48",
+            "content": "@@ -46,15 +46,34 @@\n ar a\n-,\n+ int = 2%0A    var\n  b int\n+ = 4\n %0A%0A  \n@@ -94,39 +94,8 @@\n  &b)\n-%0A%0A    media := float64(a+b) / 2\n %0A   \n@@ -116,13 +116,15 @@\n tln(\n-media\n+a + b/2\n )%0A%7D%0A\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-03-23_02-48-46",
+            "content": "@@ -125,20 +125,11 @@\n rint\n-f(%22%25.1f%5Cn%22, \n+ln(\n medi\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-23_02-49-33",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a, b int\n\n    fmt.Scan(&a, &b)\n\n    media := float64(a+b) / 2\n    \n    fmt.Printf(\"%.1f\\n\", media)\n}\n",
+            "lines": "11"
         }
     ]
 }

@@ -1,10 +1,11 @@
 package main
 import "fmt"
 func main() {
-    var a int = 3
-    var b int = 3
+    var a, b int
 
     fmt.Scan(&a, &b)
+
+    media := float64(a+b) / 2
     
-    fmt.Println(a + b/2)
+    fmt.Printf("%.1f\n", media)
 }
