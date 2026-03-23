@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-23_03-27-48",
+            "content": "@@ -10,35 +10,21 @@\n ain%0A\n-%0A\n import \n-(%0A%09\n %22fmt%22%0A\n-%09%22math%22%0A)%0A\n func\n@@ -41,212 +41,35 @@\n     \n-var x1, y2, x2, y2 float64%0A%0A    fmt.Scan(&x1)%0A    fmt.Scan(&y1)%0A    fmt.Scan(&x2)%0A    fmt.Scan(&y2)%0A%0A    distancia := math.Sqrt(math.Pow(x2-x1, 2) + math.Pow(y2-y1, 2))%0A%0A    fmt.Printf(%22%25.2f%5Cn%22, distancia\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-23_03-34-10",
+            "content": "@@ -60,17 +60,17 @@\n ar x1, y\n-1\n+2\n , x2, y2\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-03-23_03-34-24",
+            "content": "package main\n\nimport (\n\t\"fmt\"\n\t\"math\"\n)\nfunc main() {\n    var x1, y1, x2, y2 float64\n\n    fmt.Scan(&x1)\n    fmt.Scan(&y1)\n    fmt.Scan(&x2)\n    fmt.Scan(&y2)\n\n    distancia := math.Sqrt(math.Pow(x2-x1, 2) + math.Pow(y2-y1, 2))\n\n    fmt.Printf(\"%.2f\\n\", distancia)\n}\n",
+            "lines": "18"
+        }
+    ]
+}
