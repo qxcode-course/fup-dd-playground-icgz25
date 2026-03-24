@@ -1,0 +1,28 @@
+2026-03-24 17:31:13, MOVE, v:1, k:fup@tres, mode:PICK
+2026-03-24 17:31:16, EXEC, v:1, k:fup@tres, mode:FULL, rate:100
+2026-03-24 17:33:21, EXEC, v:1, k:fup@tres, mode:FULL, rate:100
+2026-03-24 17:35:31, SELF, v:1, k:fup@tres, self:1, rate:100, study:10, friend:Nao, problem:1
+2026-03-24 17:35:38, MOVE, v:1, k:fup@tres, mode:BACK
+2026-03-24 17:35:44, MOVE, v:1, k:fup@resto, mode:PICK
+2026-03-24 17:36:10, SELF, v:1, k:fup@resto, self:1, rate:100, study:51, friend:Nao, guided:1
+2026-03-24 17:36:15, EXEC, v:1, k:fup@resto, mode:FULL, rate:100
+2026-03-24 17:36:16, MOVE, v:1, k:fup@resto, mode:BACK
+2026-03-24 17:36:20, MOVE, v:1, k:fup@media, mode:PICK
+2026-03-24 17:36:22, EXEC, v:1, k:fup@media, mode:FULL, rate:100
+2026-03-24 17:36:36, SELF, v:1, k:fup@media, self:1, rate:100, study:39, friend:Nao, guided:1
+2026-03-24 17:36:37, MOVE, v:1, k:fup@media, mode:BACK
+2026-03-24 17:36:42, MOVE, v:1, k:fup@sobrou, mode:PICK
+2026-03-24 17:36:53, SELF, v:1, k:fup@sobrou, self:1, rate:100, study:18, friend:Nao, guided:1
+2026-03-24 17:36:54, MOVE, v:1, k:fup@sobrou, mode:BACK
+2026-03-24 17:42:45, MOVE, v:1, k:fup@segundos, mode:PICK
+2026-03-24 17:43:01, SELF, v:1, k:fup@segundos, self:1, rate:100, study:8, friend:Nao
+2026-03-24 17:43:03, MOVE, v:1, k:fup@segundos, mode:BACK
+2026-03-24 17:43:09, MOVE, v:1, k:fup@celsius, mode:PICK
+2026-03-24 17:43:26, SELF, v:1, k:fup@celsius, self:1, rate:100, study:5, friend:Nao
+2026-03-24 17:43:28, MOVE, v:1, k:fup@celsius, mode:BACK
+2026-03-24 17:43:34, MOVE, v:1, k:fup@pintando, mode:PICK
+2026-03-24 17:43:47, SELF, v:1, k:fup@pintando, self:1, rate:100, study:5, friend:Nao
+2026-03-24 17:43:48, MOVE, v:1, k:fup@pintando, mode:BACK
+2026-03-24 17:43:54, MOVE, v:1, k:fup@bala, mode:PICK
+2026-03-24 17:44:06, SELF, v:1, k:fup@bala, self:1, rate:100, study:7, friend:Nao
+2026-03-24 17:44:09, MOVE, v:1, k:fup@bala, mode:BACK
