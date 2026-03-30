@@ -54,3 +54,10 @@
 2026-03-30 18:07:02, SELF, v:1, k:fup@positivo, self:1, rate:100, study:5
 2026-03-30 18:07:02, EXEC, v:1, k:fup@positivo, mode:FULL, rate:100
 2026-03-30 18:07:03, MOVE, v:1, k:fup@positivo, mode:BACK
+2026-03-30 18:08:45, MOVE, v:1, k:fup@multiplo, mode:DOWN
+2026-03-30 18:08:49, MOVE, v:1, k:fup@multiplo, mode:PICK
+2026-03-30 18:08:50, EXEC, v:1, k:fup@multiplo, mode:FULL, rate:0, size:5
+2026-03-30 18:12:05, EXEC, v:1, k:fup@multiplo, mode:FULL, size:13, fail:COMP
+2026-03-30 18:13:26, EXEC, v:1, k:fup@multiplo, mode:FULL, rate:100, size:13
+2026-03-30 18:13:55, SELF, v:1, k:fup@multiplo, self:1, rate:100, study:6
+2026-03-30 18:13:56, MOVE, v:1, k:fup@multiplo, mode:BACK

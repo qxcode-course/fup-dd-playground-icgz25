@@ -29,6 +29,7 @@ tasks:
   fup@max: '{self:1, rate:100, study:15}'
   fup@ou: '{self:1, rate:100, study:10}'
   fup@positivo: '{self:1, rate:100, study:5}'
+  fup@multiplo: '{self:1, rate:100, study:6}'
 flags:
   panel: 3
   inbox: 0
@@ -36,4 +37,4 @@ flags:
   task_graph_mode: 0
   show_time: 0
 lang: go
-selected: fup@multiplo
+selected: fup@calc
