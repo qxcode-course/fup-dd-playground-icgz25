@@ -42,8 +42,23 @@
         },
         {
             "label": "2026-03-23_17-37-54",
-            "content": "package main\nimport \"fmt\"\nimport \"math\"\n\nfunc main() {\n    var a float64\n    var b float64\n\n    fmt.Scan(&a, &b)\n\n    diferenca := math.Abs(a - b)\n\n    fmt.Println(diferenca)\n\n\n}\n",
+            "content": "@@ -145,11 +145,35 @@\n b)%0A%0A    \n+fmt.Println(diferenca)%0A%0A\n %0A%7D%0A\n",
             "lines": "16"
+        },
+        {
+            "label": "2026-03-30_17-21-22",
+            "content": "@@ -57,17 +57,32 @@\n    var a\n-,\n+ float64%0A    var\n  b float\n@@ -145,35 +145,8 @@\n b)%0A%0A\n-    fmt.Println(diferenca)%0A\n     \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-03-30_17-25-53",
+            "content": "@@ -61,24 +61,9 @@\n ar a\n- float64%0A    var\n+,\n  b f\n@@ -153,11 +153,15 @@\n erenca)%0A\n+    \n %0A%7D%0A\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-03-30_17-30-55",
+            "content": "package main\nimport \"fmt\"\nimport \"math\"\n\nfunc main() {\n    var a float64\n    var b float64\n\n    fmt.Scan(&a, &b)\n\n    diferenca := math.Abs(a - b)\n\n    fmt.Println(diferenca)\n\n}\n",
+            "lines": "15"
         }
     ]
 }

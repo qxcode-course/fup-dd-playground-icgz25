@@ -14,6 +14,7 @@ sources:
   tasks: null
 expanded:
 - fup@base
+- fup@if1
 tasks:
   sandbox@user_001: '{rate:100}'
   fup@tres: '{self:1, rate:100, study:10, friend:Nao, problem:1}'
@@ -23,14 +24,13 @@ tasks:
   fup@segundos: '{self:1, rate:100, study:8, friend:Nao}'
   fup@celsius: '{self:1, rate:100, study:5, friend:Nao}'
   fup@pintando: '{self:1, rate:100, study:5, friend:Nao}'
-  fup@bala: '{rate:100}'
-  fup@abs: '{rate:100}'
+  fup@bala: '{self:1, rate:100, study:7, friend:Nao}'
+  fup@abs: '{self:1, rate:100, study:20}'
 flags:
   panel: 3
   inbox: 0
   show_panel: 1
-  tasks: 0
   task_graph_mode: 0
   show_time: 0
 lang: go
-selected: fup@bala
+selected: fup@max
