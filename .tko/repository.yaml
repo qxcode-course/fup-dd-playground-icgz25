@@ -13,18 +13,18 @@ sources:
   quests: null
   tasks: null
 expanded:
-- fup@if1
 - fup@base
+- fup@if1
 tasks:
   sandbox@user_001: '{rate:100}'
-  fup@tres: '{self:1, rate:100, study:10, friend:Nao, problem:1}'
-  fup@resto: '{self:1, rate:100, study:51, friend:Nao, guided:1}'
-  fup@media: '{self:1, rate:100, study:39, friend:Nao, guided:1}'
-  fup@sobrou: '{self:1, rate:100, study:18, friend:Nao, guided:1}'
-  fup@segundos: '{self:1, rate:100, study:8, friend:Nao}'
-  fup@celsius: '{self:1, rate:100, study:5, friend:Nao}'
-  fup@pintando: '{self:1, rate:100, study:5, friend:Nao}'
-  fup@bala: '{self:1, rate:100, study:7, friend:Nao}'
+  fup@tres: '{self:1, rate:100, study:10}'
+  fup@resto: '{self:1, rate:100, study:51}'
+  fup@media: '{self:1, rate:100, study:39}'
+  fup@sobrou: '{self:1, rate:100, study:18}'
+  fup@segundos: '{self:1, rate:100, study:8}'
+  fup@celsius: '{self:1, rate:100, study:5}'
+  fup@pintando: '{self:1, rate:100, study:5}'
+  fup@bala: '{self:1, rate:100, study:7}'
   fup@abs: '{self:1, rate:100, study:20}'
   fup@max: '{self:1, rate:100, study:15}'
   fup@ou: '{self:1, rate:100, study:10}'
