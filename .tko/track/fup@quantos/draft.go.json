@@ -1,0 +1,44 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-31_17-31-33",
+            "content": "@@ -41,192 +41,35 @@\n     \n-var a, b, c int%0A%0A    fmt.Scan(&a, &b, &c)%0A%0A    if a == b %7C%7C a == c %7B%0A        fmt.Println(%223%22)%0A    %7D else if a == b %7B%0A        fmt.Println(%222%22)%0A    %7D else %7B%0A        fmt.Println(%221%22)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-31_17-35-57",
+            "content": "@@ -194,18 +194,8 @@\n lse \n-if a == a \n %7B%0A  \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-31_17-37-11",
+            "content": "@@ -93,25 +93,25 @@\n f a == b %7C%7C \n-b\n+a\n  == c %7B%0A    \n@@ -156,28 +156,8 @@\n = b \n-%7C%7C a == c %7C%7C b == c \n %7B%0A  \n@@ -179,16 +179,16 @@\n ln(%222%22)%0A\n-\n     %7D el\n@@ -190,16 +190,26 @@\n  %7D else \n+if a == a \n %7B%0A      \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-31_17-42-12",
+            "content": "@@ -94,18 +94,18 @@\n  a == b \n-&&\n+%7C%7C\n  b == c \n@@ -156,18 +156,18 @@\n = b \n-&&\n+%7C%7C\n  a == c \n && b\n@@ -166,10 +166,10 @@\n = c \n-&&\n+%7C%7C\n  b =\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-31_17-42-36",
+            "content": "@@ -156,18 +156,18 @@\n = b \n-%7C%7C\n+&&\n  a == c \n %7C%7C b\n@@ -166,10 +166,10 @@\n = c \n-%7C%7C\n+&&\n  b =\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-31_17-43-26",
+            "content": "@@ -187,33 +187,33 @@\n    fmt.Println(%22\n-1\n+2\n %22)%0A    %7D else %7B%0A\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-31_17-46-38",
+            "content": "@@ -199,9 +199,9 @@\n ln(%22\n-2\n+1\n %22)%0A \n@@ -237,9 +237,9 @@\n ln(%22\n-0\n+1\n %22)%0A \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-31_17-46-46",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a, b, c int\n\n    fmt.Scan(&a, &b, &c)\n\n    if a == b && b == c {\n        fmt.Println(\"3\")\n    } else if a == b || a == c || b == c {\n        fmt.Println(\"2\")\n    } else {\n        fmt.Println(\"0\")\n    }\n}\n",
+            "lines": "15"
+        }
+    ]
+}
