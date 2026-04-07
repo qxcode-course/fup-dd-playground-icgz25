@@ -1,0 +1,22 @@
+2026-04-07 17:04:15, MOVE, v:1, k:fup@quantos, mode:PICK
+2026-04-07 17:04:19, EXEC, v:1, k:fup@quantos, mode:FULL, rate:100
+2026-04-07 17:04:38, MOVE, v:1, k:fup@quantos, mode:BACK
+2026-04-07 17:04:41, MOVE, v:1, k:fup@quantos, mode:PICK
+2026-04-07 17:12:12, MOVE, v:1, k:fup@quantos, mode:BACK
+2026-04-07 17:21:27, MOVE, v:1, k:fup@mumia, mode:PICK
+2026-04-07 17:21:30, EXEC, v:1, k:fup@mumia, mode:FULL, rate:0
+2026-04-07 17:40:34, MOVE, v:1, k:fup@mumia, mode:BACK
+2026-04-07 17:42:15, MOVE, v:1, k:fup@final, mode:DOWN
+2026-04-07 17:42:19, MOVE, v:1, k:fup@final, mode:PICK
+2026-04-07 17:42:27, MOVE, v:1, k:fup@final, mode:BACK
+2026-04-07 17:42:28, MOVE, v:1, k:fup@final, mode:PICK
+2026-04-07 17:42:30, EXEC, v:1, k:fup@final, mode:FULL, rate:0, size:5
+2026-04-07 18:02:18, EXEC, v:1, k:fup@final, mode:FULL, rate:60, size:22
+2026-04-07 18:03:27, EXEC, v:1, k:fup@final, mode:FULL, rate:60, size:22
+2026-04-07 18:04:04, EXEC, v:1, k:fup@final, mode:FULL, rate:60
+2026-04-07 18:09:54, MOVE, v:1, k:fup@final, mode:PICK
+2026-04-07 18:09:57, EXEC, v:1, k:fup@final, mode:FULL, rate:60
+2026-04-07 18:10:21, EXEC, v:1, k:fup@final, mode:FULL, rate:60, size:22
+2026-04-07 18:15:33, MOVE, v:1, k:fup@final, mode:PICK
+2026-04-07 18:15:35, EXEC, v:1, k:fup@final, mode:FULL, rate:80, size:22
+2026-04-07 18:16:07, EXEC, v:1, k:fup@final, mode:FULL, rate:80, size:22

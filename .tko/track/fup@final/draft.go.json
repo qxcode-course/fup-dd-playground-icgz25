@@ -1,0 +1,34 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-07_17-42-30",
+            "content": "@@ -41,454 +41,35 @@\n     \n-var nota1, nota2, notafinal int%0A    fmt.Scan(&nota1, &nota2, &notafinal)%0A%0A    media := float64 (nota1+nota2) / 2.0%0A%0A    if media %3E= 7 %7B%0A        fmt.Println(%22aprovado%22)%0A    %7D else if media %3C= 4 %7B%0A        fmt.Println(%22reprovado%22)%0A    %7D else %7B%0A        novamedia := (media + float64(notafinal/2.0))%0A%0A        if novamedia %3E= 5 %7B%0A            fmt.Println(%22aprovado na final%22)%0A        %7D else %7B%0A            fmt.Println(%22reprovado na final%22)%0A        %7D%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-07_18-02-18",
+            "content": "@@ -226,16 +226,17 @@\n  media %3C\n+=\n  4 %7B%0A   \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-04-07_18-03-27",
+            "content": "@@ -149,16 +149,18 @@\n ta2) / 2\n+.0\n %0A%0A    if\n@@ -326,16 +326,18 @@\n afinal/2\n+.0\n ))%0A%0A    \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-04-07_18-10-21",
+            "content": "@@ -149,18 +149,16 @@\n ta2) / 2\n-.0\n %0A%0A    if\n@@ -168,18 +168,16 @@\n dia %3E= 7\n-.0\n  %7B%0A     \n@@ -226,18 +226,16 @@\n edia %3C 4\n-.0\n  %7B%0A     \n@@ -307,13 +307,30 @@\n dia \n-/ 2.0\n++ float64(notafinal/2)\n )%0A%0A \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-04-07_18-15-35",
+            "content": "@@ -342,18 +342,16 @@\n dia %3E= 5\n-.0\n  %7B%0A     \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-04-07_18-16-07",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var nota1, nota2, notafinal int\n    fmt.Scan(&nota1, &nota2, &notafinal)\n\n    media := float64 (nota1+nota2) / 2.0\n\n    if media >= 7.0 {\n        fmt.Println(\"aprovado\")\n    } else if media < 4.0 {\n        fmt.Println(\"reprovado\")\n    } else {\n        novamedia := (media / 2.0)\n\n        if novamedia >= 5.0 {\n            fmt.Println(\"aprovado na final\")\n        } else {\n            fmt.Println(\"reprovado na final\")\n        }\n    }\n}\n",
+            "lines": "22"
+        }
+    ]
+}
