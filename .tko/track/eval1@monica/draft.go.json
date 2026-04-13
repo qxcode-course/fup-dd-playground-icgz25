@@ -1,0 +1,9 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-13_17-52-51",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar m, a, b int\n\n\tfmt.Scan(&m, &a, &b)\n\n\tc := m - a - b\n\n\tmaisVelho := a\n\n\tif b > maisVelho {\n\t\tmaisVelho = b\n\t}\n\t\n\tif c > maisVelho {\n\t\tmaisVelho = c\n\t}\n\n\tfmt.Println(maisVelho)\n}\n",
+            "lines": "23"
+        }
+    ]
+}

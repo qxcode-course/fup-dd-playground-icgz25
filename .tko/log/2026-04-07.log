@@ -20,3 +20,5 @@
 2026-04-07 18:15:33, MOVE, v:1, k:fup@final, mode:PICK
 2026-04-07 18:15:35, EXEC, v:1, k:fup@final, mode:FULL, rate:80, size:22
 2026-04-07 18:16:07, EXEC, v:1, k:fup@final, mode:FULL, rate:80, size:22
+2026-04-07 18:16:07, MOVE, v:1, k:fup@final, mode:EDIT
+2026-04-07 18:16:01, MOVE, v:1, k:fup@final, mode:EDIT
