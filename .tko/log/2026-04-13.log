@@ -87,3 +87,5 @@
 2026-04-13 18:11:05, EXEC, v:1, k:eval1@ceu, mode:FULL, rate:100, size:26
 2026-04-13 18:11:13, SELF, v:1, k:eval1@ceu, self:1, rate:100, study:7
 2026-04-13 18:11:14, MOVE, v:1, k:eval1@ceu, mode:BACK
+2026-04-13 18:11:04, MOVE, v:1, k:eval1@ceu, mode:EDIT
+2026-04-13 18:11:05, MOVE, v:1, k:eval1@ceu, mode:EDIT
