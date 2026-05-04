@@ -45,5 +45,5 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fup@if2
-selected_index: 30
+selected: fup@xuxa
+selected_index: 149

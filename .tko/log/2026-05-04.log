@@ -42,3 +42,14 @@
 2026-05-04 17:40:48, EXEC, v:1, k:fup@impar, mode:FULL, rate:100
 2026-05-04 17:40:53, SELF, v:1, k:fup@impar, self:1, rate:100, study:10
 2026-05-04 17:40:54, MOVE, v:1, k:fup@impar, mode:BACK
+2026-05-04 17:41:39, MOVE, v:1, k:fup@xuxa, mode:DOWN
+2026-05-04 17:41:43, MOVE, v:1, k:fup@xuxa, mode:PICK
+2026-05-04 17:41:52, EXEC, v:1, k:fup@xuxa, mode:FULL, rate:0, size:5
+2026-05-04 17:39:49, MOVE, v:1, k:eval1@monica, mode:EDIT
+2026-05-04 17:40:02, MOVE, v:1, k:eval1@pares, mode:EDIT
+2026-05-04 17:40:21, MOVE, v:1, k:eval1@ceu, mode:EDIT
+2026-05-04 17:40:48, MOVE, v:1, k:fup@impar, mode:EDIT
+2026-05-04 17:41:39, MOVE, v:1, k:fup@xuxa, mode:EDIT
+2026-05-04 17:41:39, MOVE, v:1, k:fup@xuxa, mode:EDIT
+2026-05-04 17:41:39, MOVE, v:1, k:fup@xuxa, mode:EDIT
+2026-05-04 17:41:52, MOVE, v:1, k:fup@xuxa, mode:EDIT
