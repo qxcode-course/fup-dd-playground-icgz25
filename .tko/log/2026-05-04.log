@@ -66,3 +66,19 @@
 2026-05-04 17:59:49, EXEC, v:1, k:fup@xuxa, mode:FULL, rate:0, size:12
 2026-05-04 17:59:49, MOVE, v:1, k:fup@xuxa, mode:EDIT
 2026-05-04 17:59:48, MOVE, v:1, k:fup@xuxa, mode:EDIT
+2026-05-04 18:09:35, MOVE, v:1, k:fup@xuxa, mode:BACK
+2026-05-04 18:09:53, MOVE, v:1, k:eval1@pares, mode:PICK
+2026-05-04 18:09:54, EXEC, v:1, k:eval1@pares, mode:FULL, rate:100
+2026-05-04 18:10:07, SELF, v:1, k:eval1@pares, self:1, rate:100, study:10
+2026-05-04 18:10:09, EXEC, v:1, k:eval1@pares, mode:FULL, rate:100
+2026-05-04 18:10:10, MOVE, v:1, k:eval1@pares, mode:BACK
+2026-05-04 18:10:12, MOVE, v:1, k:eval1@ceu, mode:PICK
+2026-05-04 18:10:13, EXEC, v:1, k:eval1@ceu, mode:FULL, rate:100
+2026-05-04 18:10:29, SELF, v:1, k:eval1@ceu, self:1, rate:100, study:10
+2026-05-04 18:10:29, EXEC, v:1, k:eval1@ceu, mode:FULL, rate:100
+2026-05-04 18:10:32, MOVE, v:1, k:eval1@ceu, mode:BACK
+2026-05-04 18:10:51, MOVE, v:1, k:fup@impar, mode:PICK
+2026-05-04 18:10:52, EXEC, v:1, k:fup@impar, mode:FULL, rate:100
+2026-05-04 18:10:59, SELF, v:1, k:fup@impar, self:1, rate:100, study:10
+2026-05-04 18:11:00, EXEC, v:1, k:fup@impar, mode:FULL, rate:100
+2026-05-04 18:11:02, MOVE, v:1, k:fup@impar, mode:BACK
