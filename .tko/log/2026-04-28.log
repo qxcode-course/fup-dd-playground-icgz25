@@ -2,3 +2,4 @@
 2026-04-28 17:49:48, EXEC, v:1, k:fup@meio, mode:FULL, rate:100
 2026-04-28 17:49:57, SELF, v:1, k:fup@meio, self:1, rate:100, study:10
 2026-04-28 17:50:00, MOVE, v:1, k:fup@meio, mode:BACK
+2026-04-28 17:49:47, MOVE, v:1, k:fup@meio, mode:EDIT
