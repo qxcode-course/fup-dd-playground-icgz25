@@ -2,8 +2,33 @@
     "patches": [
         {
             "label": "2026-05-04_17-41-52",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}\n",
+            "content": "@@ -41,136 +41,35 @@\n     \n-var s string%0A    fmt.Println(&s)%0A%0A    r := %5B%5Drune(s)%0A%0A    for i := len(r) - 1; i %3E=0; i-- %7B%0A        fmt.Print(string(r%5Bi%5D))%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
             "lines": "5"
+        },
+        {
+            "label": "2026-05-04_17-55-27",
+            "content": "@@ -151,45 +151,20 @@\n int(\n-%22o cheiro de pipoca ta rolando no ar%22\n+string(r%5Bi%5D)\n )%0A  \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-05-04_17-57-24",
+            "content": "@@ -151,15 +151,8 @@\n int(\n-string(\n %22o c\n@@ -188,12 +188,8 @@\n  ar%22\n-%5Bi%5D)\n )%0A  \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-05-04_17-58-28",
+            "content": "@@ -154,17 +154,53 @@\n (string(\n-r\n+%22o cheiro de pipoca ta rolando no ar%22\n %5Bi%5D))%0A  \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-05-04_17-58-49",
+            "content": "@@ -158,45 +158,12 @@\n ing(\n-%22o cheiro de pipoca ta rolando no ar%22\n+r%5Bi%5D\n ))%0A \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-05-04_17-59-49",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var s string\n    fmt.Println(&s)\n\n    r := []rune(s)\n\n    for i := len(r) - 1; i >=0; i-- {\n        fmt.Print(string(\"o cheiro de pipoca ta rolando no ar\"))\n    }\n}\n",
+            "lines": "12"
         }
     ]
 }
