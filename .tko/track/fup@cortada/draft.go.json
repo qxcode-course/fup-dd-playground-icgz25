@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-12_16-16-17",
+            "content": "@@ -17,15 +17,13 @@\n ort \n-(\n %22fmt%22\n-)\n %0Afun\n@@ -41,317 +41,35 @@\n     \n-var B, T int%0A    fmt.Scanln(&B)%0A    fmt.Scanln(&T)%0A%0A    total := 160 * 70%0A%0A    areaEsquerda := (B + T) * 70 / 2%0A    areaDireita := total - areaEsquerda%0A%0A    if areaEsquerda %3E total/2 %7B%0A        fmt.Println(1)%0A    %7D else if areaDireita %3E total/2 %7B%0A        fmt.Println(2)%0A    %7D else %7B%0A        fmt.Println(0)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-12_16-23-16",
+            "content": "package main\nimport (\"fmt\")\nfunc main() {\n    var B, T int\n    fmt.Scanln(&B)\n    fmt.Scanln(&T)\n\n    total := 160 * 70\n\n    areaEsquerda := (B + T) * 70 / 2\n    areaDireita := total - areaEsquerda\n\n    if areaEsquerda > total/2 {\n        fmt.Println(1)\n    } else if areaDireita > total/2 {\n        fmt.Println(2)\n    } else {\n        fmt.Println(0)\n    }\n}\n",
+            "lines": "20"
+        }
+    ]
+}

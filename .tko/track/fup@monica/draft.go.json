@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-12_16-28-39",
+            "content": "@@ -41,252 +41,35 @@\n     \n-var M, A, B int%0A%0A    fmt.Scanln(&M)%0A    fmt.Scanln(&A)%0A    fmt.Scanln(&B)%0A%0A    C := M - (A + B)%0A%0A    maisVelho := A%0A    if B %3E maisVelho %7B%0A        maisVelho = B%0A    %7D%0A    if C %3E maisVelho %7B%0A        maisVelho = C%0A    %7D%0A%0A    fmt.Println(maisVelho\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-12_16-34-58",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var M, A, B int\n\n    fmt.Scanln(&M)\n    fmt.Scanln(&A)\n    fmt.Scanln(&B)\n\n    C := M - (A + B)\n\n    maisVelho := A\n    if B > maisVelho {\n        maisVelho = B\n    }\n    if C > maisVelho {\n        maisVelho = C\n    }\n\n    fmt.Println(maisVelho)\n}\n",
+            "lines": "21"
+        }
+    ]
+}

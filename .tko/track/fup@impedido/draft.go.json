@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-12_17-10-23",
+            "content": "@@ -41,183 +41,35 @@\n     \n-var L, R, D int%0A%0A    fmt.Scanln(&L)%0A    fmt.Scanln(&R)%0A    fmt.Scanln(&D)%0A    if R %3E 50 && L %3C R && R %3E D %7B%0A        fmt.Println(%22S%22)%0A    %7D else %7B%0A        fmt.Println(%22N%22)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-12_17-14-09",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var L, R, D int\n\n    fmt.Scanln(&L)\n    fmt.Scanln(&R)\n    fmt.Scanln(&D)\n    if R > 50 && L < R && R > D {\n        fmt.Println(\"S\")\n    } else {\n        fmt.Println(\"N\")\n    }\n}\n",
+            "lines": "14"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-12_16-50-11",
+            "content": "@@ -41,351 +41,35 @@\n     \n-var N, X, Y, S int%0A    var C string%0A%0A    fmt.Scanln(&N)%0A    fmt.Scanln(&X)%0A    fmt.Scanln(&Y)%0A    fmt.Scanln(&C)%0A    fmt.Scanln(&S)%0A%0A    switch C %7B%0A    case %22U%22:%0A        Y = (Y - S%25N + N) %25 N%0A    case %22D%22:%0A        Y = (Y + S%25N) %25 N%0A    case %22L%22:%0A        X = (X - S%25N + N) %25 N%0A    case %22R%22:%0A        X = (X + S%25N) %25 N%0A    %7D%0A%0A    fmt.Println(X, Y\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-12_16-56-50",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var N, X, Y, S int\n    var C string\n\n    fmt.Scanln(&N)\n    fmt.Scanln(&X)\n    fmt.Scanln(&Y)\n    fmt.Scanln(&C)\n    fmt.Scanln(&S)\n\n    switch C {\n    case \"U\":\n        Y = (Y - S%N + N) % N\n    case \"D\":\n        Y = (Y + S%N) % N\n    case \"L\":\n        X = (X - S%N + N) % N\n    case \"R\":\n        X = (X + S%N) % N\n    }\n\n    fmt.Println(X, Y)\n}\n",
+            "lines": "25"
+        }
+    ]
+}

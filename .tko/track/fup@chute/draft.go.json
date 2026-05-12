@@ -1,0 +1,9 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-12_17-29-14",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var produto, chute1, chute2 int\n\n    fmt.Scanln(&produto)\n    fmt.Scanln(&chute1)\n    fmt.Scanln(&chute2)\n\n    dist1 := abs(produto - chute1)\n    dist2 := abs(produto - chute2)\n\n    if dist1 < dist2 {\n        fmt.Println(\"primeiro\")\n    } else if dist2 < dist1 {\n        fmt.Println(\"segundo\")\n    } else {\n        fmt.Println(\"empate\")\n    }\n}\n\nfunc abs(x int) int {\n    if x < 0 {\n        return -x\n    }\n    return x\n}\n",
+            "lines": "27"
+        }
+    ]
+}

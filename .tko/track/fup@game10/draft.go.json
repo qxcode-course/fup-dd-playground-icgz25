@@ -1,0 +1,9 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-12_17-03-40",
+            "content": "package main\nimport (\"fmt\")\nfunc main() {\n    var N, D, A int\n\n    fmt.Scanln(&N)\n    fmt.Scanln(&D)\n    fmt.Scanln(&A)\n\n    apertos := (D - A + N) % N\n\n    fmt.Println(apertos)\n}\n",
+            "lines": "13"
+        }
+    ]
+}

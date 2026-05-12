@@ -27,8 +27,13 @@
         },
         {
             "label": "2026-04-07_18-16-07",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var nota1, nota2, notafinal int\n    fmt.Scan(&nota1, &nota2, &notafinal)\n\n    media := float64 (nota1+nota2) / 2.0\n\n    if media >= 7.0 {\n        fmt.Println(\"aprovado\")\n    } else if media < 4.0 {\n        fmt.Println(\"reprovado\")\n    } else {\n        novamedia := (media / 2.0)\n\n        if novamedia >= 5.0 {\n            fmt.Println(\"aprovado na final\")\n        } else {\n            fmt.Println(\"reprovado na final\")\n        }\n    }\n}\n",
+            "content": "@@ -55,25 +55,25 @@\n  nota2, nota\n-F\n+f\n inal int%0A%0A  \n@@ -69,17 +69,16 @@\n nal int%0A\n-%0A\n     fmt.\n@@ -85,63 +85,31 @@\n Scan\n-ln\n (&nota1\n-)%0A    fmt.Scanln(&nota2)%0A    fmt.Scanln(\n+, &nota2, \n &nota\n-F\n+f\n inal\n@@ -127,24 +127,25 @@\n a := float64\n+ \n (nota1+nota2\n@@ -170,16 +170,18 @@\n dia %3E= 7\n+.0\n  %7B%0A     \n@@ -230,16 +230,18 @@\n edia %3C 4\n+.0\n  %7B%0A     \n@@ -289,26 +289,25 @@\n         \n+nova\n media\n-Final\n  := (med\n@@ -312,36 +312,16 @@\n edia\n- + float64(notaFinal))\n  / 2.0\n+)%0A\n %0A   \n@@ -332,23 +332,24 @@\n  if \n+nova\n media\n-Final\n  %3E= 5\n+.0\n  %7B%0A \n",
             "lines": "22"
+        },
+        {
+            "label": "2026-05-12_15-44-14",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var nota1, nota2, notaFinal int\n\n    fmt.Scanln(&nota1)\n    fmt.Scanln(&nota2)\n    fmt.Scanln(&notaFinal)\n\n    media := float64(nota1+nota2) / 2.0\n\n    if media >= 7 {\n        fmt.Println(\"aprovado\")\n    } else if media < 4 {\n        fmt.Println(\"reprovado\")\n    } else {\n        mediaFinal := (media + float64(notaFinal)) / 2.0\n        if mediaFinal >= 5 {\n            fmt.Println(\"aprovado na final\")\n        } else {\n            fmt.Println(\"reprovado na final\")\n        }\n    }\n}\n",
+            "lines": "24"
         }
     ]
 }

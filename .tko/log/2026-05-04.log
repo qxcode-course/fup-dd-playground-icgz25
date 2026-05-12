@@ -82,3 +82,6 @@
 2026-05-04 18:10:59, SELF, v:1, k:fup@impar, self:1, rate:100, study:10
 2026-05-04 18:11:00, EXEC, v:1, k:fup@impar, mode:FULL, rate:100
 2026-05-04 18:11:02, MOVE, v:1, k:fup@impar, mode:BACK
+2026-05-04 18:10:09, MOVE, v:1, k:eval1@pares, mode:EDIT
+2026-05-04 18:10:29, MOVE, v:1, k:eval1@ceu, mode:EDIT
+2026-05-04 18:11:00, MOVE, v:1, k:fup@impar, mode:EDIT

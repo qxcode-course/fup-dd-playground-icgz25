@@ -1,19 +1,21 @@
 package main
 import "fmt"
 func main() {
-    var nota1, nota2, notafinal int
-    fmt.Scan(&nota1, &nota2, &notafinal)
+    var nota1, nota2, notaFinal int
 
-    media := float64 (nota1+nota2) / 2.0
+    fmt.Scanln(&nota1)
+    fmt.Scanln(&nota2)
+    fmt.Scanln(&notaFinal)
 
-    if media >= 7.0 {
+    media := float64(nota1+nota2) / 2.0
+
+    if media >= 7 {
         fmt.Println("aprovado")
-    } else if media < 4.0 {
+    } else if media < 4 {
         fmt.Println("reprovado")
     } else {
-        novamedia := (media / 2.0)
-
-        if novamedia >= 5.0 {
+        mediaFinal := (media + float64(notaFinal)) / 2.0
+        if mediaFinal >= 5 {
             fmt.Println("aprovado na final")
         } else {
             fmt.Println("reprovado na final")

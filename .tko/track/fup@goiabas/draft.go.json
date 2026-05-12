@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-12_16-47-40",
+            "content": "@@ -41,239 +41,35 @@\n     \n-var C, bananas, goiabas, mangas int%0A%0A    fmt.Scanln(&C)%0A    fmt.Scanln(&bananas)%0A    fmt.Scanln(&goiabas)%0A    fmt.Scanln(&mangas)%0A%0A    total := bananas + goiabas + mangas%0A%0A    viagens := (total + C - 1) / C%0A%0A    fmt.Println(viagens\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-12_16-49-52",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var C, bananas, goiabas, mangas int\n\n    fmt.Scanln(&C)\n    fmt.Scanln(&bananas)\n    fmt.Scanln(&goiabas)\n    fmt.Scanln(&mangas)\n\n    total := bananas + goiabas + mangas\n\n    viagens := (total + C - 1) / C\n\n    fmt.Println(viagens)\n}\n",
+            "lines": "16"
+        }
+    ]
+}
