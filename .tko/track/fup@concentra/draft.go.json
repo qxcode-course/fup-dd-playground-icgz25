@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-12_20-47-01",
+            "content": "@@ -41,379 +41,34 @@\n     \n-var A, B int%0A    fmt.Scanln(&A)%0A    fmt.Scanln(&B)%0A%0A    fmt.Print(%22%5B %22)%0A%0A    for i, j := A, B; i %3C= B; i, j = i+1, j-1 %7B%0A        fmt.Printf(%22%25d %25d %22, i, j)%0A        if i == j %7B%0A            break%0A        %7D%0A    %7D%0A%0A    for i, j := B-1, A+1; i %3E= A; i, j = i-1, j+1 %7B%0A        fmt.Printf(%22%25d %25d %22, i, j)%0A        if i == A %7B%0A            break%0A        %7D%0A    %7D%0A%0A    fmt.Println(%22%5D\n+fmt.Println(%22Hello, World!\n %22)%0A%7D\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-12_20-51-01",
+            "content": "@@ -135,18 +135,19 @@\n , B; i %3C\n- j\n+= B\n ; i, j =\n@@ -185,32 +185,80 @@\n %22%25d %25d %22, i, j)%0A\n+        if i == j %7B%0A            break%0A        %7D%0A\n     %7D%0A%0A    for i\n@@ -268,20 +268,16 @@\n  := \n-(\n B-1\n-)\n , \n-(\n A+1\n-)\n ; i \n@@ -331,24 +331,72 @@\n %25d %22, i, j)%0A\n+        if i == A %7B%0A            break%0A        %7D%0A\n     %7D%0A%0A    f\n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-05-12_20-53-18",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var A, B int\n    fmt.Scanln(&A)\n    fmt.Scanln(&B)\n\n    fmt.Print(\"[ \")\n\n    for i, j := A, B; i < j; i, j = i+1, j-1 {\n        fmt.Printf(\"%d %d \", i, j)\n    }\n\n    for i, j := (B-1), (A+1); i >= A; i, j = i-1, j+1 {\n        fmt.Printf(\"%d %d \", i, j)\n    }\n\n    fmt.Println(\"]\")\n}\n",
+            "lines": "19"
+        }
+    ]
+}

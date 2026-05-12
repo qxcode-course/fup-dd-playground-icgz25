@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-12_20-38-31",
+            "content": "@@ -41,439 +41,34 @@\n     \n-var N int%0A    var inicio string%0A    fmt.Scanln(&N)%0A    fmt.Scanln(&inicio)%0A%0A    fmt.Print(%22%5B %22)%0A%0A    pe := inicio%0A%0A    for i := 0; i %3C= 10; i++ %7B%0A        if i == N %7B%0A            continue%0A        %7D%0A%0A        if i == 10 %7B%0A            fmt.Print(%22ceu %22)%0A            break%0A        %7D%0A%0A        fmt.Printf(%22%25d%25s %22, i, pe)%0A%0A        if pe == %22D%22 %7B%0A            pe = %22E%22%0A        %7D else %7B%0A            pe = %22D%22%0A        %7D%0A    %7D%0A%0A    fmt.Println(%22%5D\n+fmt.Println(%22Hello, World!\n %22)%0A%7D\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-12_20-41-27",
+            "content": "@@ -17,15 +17,13 @@\n ort \n-(\n %22fmt%22\n-)\n %0Afun\n@@ -117,93 +117,8 @@\n o)%0A%0A\n-    if inicio == %22d%22 %7B%0A        inicio = %22e%22%0A    %7D else %7B%0A        inicio = %22d%22%0A    %7D%0A%0A\n     \n@@ -151,16 +151,17 @@\n  inicio%0A\n+%0A\n     for \n@@ -369,17 +369,17 @@\n  pe == %22\n-d\n+D\n %22 %7B%0A    \n@@ -392,17 +392,17 @@\n   pe = %22\n-e\n+E\n %22%0A      \n@@ -430,17 +430,17 @@\n   pe = %22\n-d\n+D\n %22%0A      \n",
+            "lines": "33"
+        },
+        {
+            "label": "2026-05-12_20-43-30",
+            "content": "@@ -17,13 +17,15 @@\n ort \n+(\n %22fmt%22\n+)\n %0Afun\n@@ -115,16 +115,101 @@\n nicio)%0A%0A\n+    if inicio == %22d%22 %7B%0A        inicio = %22e%22%0A    %7D else %7B%0A        inicio = %22d%22%0A    %7D%0A%0A\n     fmt.\n",
+            "lines": "38"
+        },
+        {
+            "label": "2026-05-12_20-45-20",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var N int\n    var inicio string\n    fmt.Scanln(&N)\n    fmt.Scanln(&inicio)\n\n    fmt.Print(\"[ \")\n\n    pe := inicio\n    for i := 0; i <= 10; i++ {\n        if i == N {\n            continue\n        }\n\n        if i == 10 {\n            fmt.Print(\"ceu \")\n            break\n        }\n\n        fmt.Printf(\"%d%s \", i, pe)\n\n        if pe == \"d\" {\n            pe = \"e\"\n        } else {\n            pe = \"d\"\n        }\n    }\n\n    fmt.Println(\"]\")\n}\n",
+            "lines": "32"
+        }
+    ]
+}

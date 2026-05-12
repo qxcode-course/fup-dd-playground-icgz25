@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-12_19-56-12",
+            "content": "@@ -41,269 +41,34 @@\n     \n-var A, B int%0A    fmt.Scanln(&A, &B)%0A%0A    fmt.Print(%22%5B %22)%0A%0A    i := A%0A    for %7B%0A        if i %3E= B %7B%0A            break%0A        %7D%0A%0A        if i%252 == 0 %7B%0A            i++%0A            continue%0A        %7D%0A%0A        fmt.Print(i, %22 %22)%0A        i++%0A    %7D%0A%0A    fmt.Println(%22%5D\n+fmt.Println(%22Hello, World!\n %22)%0A%7D\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-12_20-01-00",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var A, B int\n    fmt.Scanln(&A, &B)\n\n    fmt.Print(\"[ \")\n\n    i := A\n    for {\n        if i >= B {\n            break\n        }\n\n        if i%2 == 0 {\n            i++\n            continue\n        }\n\n        fmt.Print(i, \" \")\n        i++\n    }\n\n    fmt.Println(\"]\")\n}\n",
+            "lines": "25"
+        }
+    ]
+}

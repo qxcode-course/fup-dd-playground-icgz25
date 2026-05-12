@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-12_20-56-34",
+            "content": "@@ -41,462 +41,35 @@\n     \n-var C, M int%0A    fmt.Scanln(&C)%0A%0A    passageiros := 0%0A%0A    for %7B%0A        fmt.Scanln(&M)%0A        passageiros += M%0A%0A        if passageiros %3C C %7B%0A            fmt.Println(%22Aten%C3%A7%C3%A3o: %C3%B4nibus lotado!%22)%0A        %7D else if passageiros == C %7B%0A            fmt.Println(%22Aten%C3%A7%C3%A3o: capacidade do %C3%B4nibus excedida!%22)%0A        %7D else if passageiros %3E= 2*C %7B%0A            fmt.Println(%22Aten%C3%A7%C3%A3o: capacidade do %C3%B4nibus excedida!%22)%0A            break // hora de partir%0A        %7D%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-12_20-59-42",
+            "content": "@@ -17,15 +17,13 @@\n ort \n-(\n %22fmt%22\n-)\n %0Afun\n@@ -178,12 +178,11 @@\n ros \n-== 0\n+%3C C\n  %7B%0A \n@@ -209,13 +209,31 @@\n ln(%22\n-vazio\n+Aten%C3%A7%C3%A3o: %C3%B4nibus lotado!\n %22)%0A \n@@ -253,33 +253,34 @@\n  if passageiros \n-%3C\n+==\n  C %7B%0A           \n@@ -297,241 +297,191 @@\n ln(%22\n-ainda cabe%22)%0A        %7D else if passageiros == C %7B%0A            fmt.Println(%22lotado%22)%0A        %7D else if passageiros %3E= 2*C %7B%0A            fmt.Println(%22hora de partir%22)%0A            break%0A        %7D else %7B%0A            fmt.Println(%22lotado%22)\n+Aten%C3%A7%C3%A3o: capacidade do %C3%B4nibus excedida!%22)%0A        %7D else if passageiros %3E= 2*C %7B%0A            fmt.Println(%22Aten%C3%A7%C3%A3o: capacidade do %C3%B4nibus excedida!%22)%0A            break // hora de partir\n %0A   \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-12_21-01-41",
+            "content": "package main\nimport (\"fmt\")\nfunc main() {\n    var C, M int\n    fmt.Scanln(&C)\n\n    passageiros := 0\n\n    for {\n        fmt.Scanln(&M)\n        passageiros += M\n\n        if passageiros == 0 {\n            fmt.Println(\"vazio\")\n        } else if passageiros < C {\n            fmt.Println(\"ainda cabe\")\n        } else if passageiros == C {\n            fmt.Println(\"lotado\")\n        } else if passageiros >= 2*C {\n            fmt.Println(\"hora de partir\")\n            break\n        } else {\n            fmt.Println(\"lotado\")\n        }\n    }\n}\n",
+            "lines": "26"
+        }
+    ]
+}
